@@ -1,7 +1,7 @@
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
-*/
+
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -54,12 +54,55 @@ table {
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    width:1200px;
 }
 
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+}  */
+* {
+    box-sizing: border-box;
+}
+
+/* .topImg{
+	display: flex;
+	justify-content: center;
+} */
+
+
+.header{
+	display:flex;
+	justify-content:flex-end;
+	width:100%;
+	
+  }
+
+.header nav{
+	display: flex;
+	justify-content: space-evenly;
+	width:100%;
+	margin: 0 auto;
+	padding:0 auto;
+    
+}
+
+.header nav a{
+    color:black;
+    margin:5% 0 auto;
+}
+
+.logo{
+    margin: 7% 0 0 30%;
+}
+
+.services-header-img{
+    margin: 5% 0 0 8%;
+}
+
+.container a{
+	color:gray 
 }
 
 p {
@@ -67,7 +110,7 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
 }
 
@@ -85,6 +128,7 @@ p {
     padding-bottom: 20px;  
 }
 
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -101,7 +145,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.middle-content .boxes .box1 {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,6 +154,160 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:teal;
+}
+
+.middle-content .boxes .box2 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:gold;
+}
+.middle-content .boxes .box3 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:cadetblue;
+}
+.middle-content .boxes .box4 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:coral;
+}
+.middle-content .boxes .box5 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:crimson;
+}
+.middle-content .boxes .box6 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:forestgreen;
+}
+.middle-content .boxes .box7 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:darkorchid;
+}
+.middle-content .boxes .box8 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:hotpink;
+}
+.middle-content .boxes .box9 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:indigo;
+}
+.middle-content .boxes .box10 {
+    width: 12.5%;
+    height: 100px;
+    background: black;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:dodgerblue;
+}
+
+/*about page*/
+/* .container-about-page{
+    display: flex;
+	justify-content: flex-start;
+	margin:2px auto;
+	width:100%;
+	
+} */
+
+.aboutBody{
+    display: flex;
+	justify-content: center;
+	padding:5%;
+}
+
+.bodyOne{
+	display: flex;	
+	
+}
+
+.bodyOne .strategy{
+    display: flex;
+	
+	padding:5%;
+	
+}
+
+.work{
+	display: flex;
+	padding:5%;
+	
+}
+.bodyTwo{
+    display: flex;
+}
+.bodyTwo .pww{
+	display: flex;
+	padding:5%;
+	
+}
+
+.col{
+	display: flex;
+	
+	padding:5%;
+	b
+}
+
+.lwt{
+    display: flex;
+	margin: 0 2% 0 5%;
 }
 
 .bottom-content {
@@ -129,6 +327,7 @@ p {
 footer {
     width: 100%;
     background: black;
+    
 }
 
 footer nav {
@@ -144,3 +343,38 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.learnMore{
+    text-align: center;
+	border: 3px solid black;
+    border-radius: 25%;
+    width: 30%;
+}
+
+.line{
+	border-top: 2px dotted black;
+	margin:5% 0 0 0;
+}
+
+.topImg .jumboAbout{
+	width:88%;
+	margin:5% 0 0 5%;
+}
+
+@media only screen and (min-width: 468px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    body {
+      background-color:lightcoral;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    body {
+      background-color: white;
+    }
+  }
